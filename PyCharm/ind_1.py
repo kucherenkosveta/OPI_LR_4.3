@@ -48,19 +48,15 @@ class RightAngled(Pair):
 
 
 if __name__ == '__main__':
-    # Создание объектов класса Pair и RightAngled
     pair = Pair(3, 4)
     right_angled = RightAngled(3, 4)
 
-    # Изменение значений полей и вычисление произведения чисел
     pair.set_values(5, 6)
     print("Произведение чисел (Pair):", pair.multiply())
 
-    # Изменение значений полей и вычисление суммы чисел
     pair.set_values(7, 8)
     print("Сумма чисел (Pair):", pair.calculate_numbers())
 
-    # Изменение значений полей и вычисление гипотенузы и площади треугольника
     right_angled.set_values(5, 12)
     print("Гипотенуза (RightAngled):", right_angled.calculate_hypotenuse())
     print("Площадь треугольника (RightAngled):", right_angled.calculate_area())
